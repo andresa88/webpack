@@ -572,6 +572,10 @@
         "umdNamedDefine": {
           "description": "If `output.libraryTarget` is set to umd and `output.library` is set, setting this to true will name the AMD module.",
           "type": "boolean"
+        },
+        "ignoreUnmodified": {
+          "description": "Do not save files that have not been modified",
+          "type": "boolean"
         }
       },
       "type": "object"
